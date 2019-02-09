@@ -1,0 +1,10 @@
+#level1{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    width: 20%;
+}
+body{
+    background-image: url("image5.jpg");
+    background-size: cover;
+}

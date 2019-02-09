@@ -1,0 +1,82 @@
+body {
+    background-image: url("river.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;
+}
+.child{
+    position: relative;
+    background:  white;
+    border: 2px solid black;
+    text-align: center;
+    float:left;
+    width:100px;
+    height:100px;
+    font-weight: bold;
+    font-size: 2em;
+    line-height:100px;
+}
+#game {
+    width:50%;
+    position:absolute;
+    left:25%;
+    height:100%;
+}
+#c2 {
+    position:absolute;
+    right:0px;
+    background-color: greenyellow;
+    top:0px;
+    height:100%;
+    width:25%;
+    z-index:10;
+}
+#score-board{
+    position: absolute;
+    top:5%;
+    right:10%;
+    font-size: 30px;
+    font-family: cursive;
+    z-index: 150;
+}
+.belt {
+    position: relative;
+    height:100px;
+    width:150%;
+    overflow: hidden;
+}
+#man
+{
+    position: absolute;
+    width: 100px;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:10%;
+    z-index:10;
+}
+#word{
+    position: absolute;
+    width:70px;
+    height:20px;
+    z-index: 100;
+    font-weight: bold;
+    font-size: 2em;
+}
+#img {
+    position:absolute;
+    width:350px;
+    height:100%;
+    background-color: green;
+    bottom:100px;
+    bottom:0px;
+    left:0px;
+    z-index: 1;
+}
+#img1 {
+    position:absolute;
+    right:0px;
+    width:320px;
+    height:100%;
+    z-index: 10;
+}
